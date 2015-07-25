@@ -1,19 +1,19 @@
-# Unprocessable Entity Middleware
+# Internal Error Middleware
 
-Express middleware that handles the unprocessable entity responses based on Swagger Express middleware input.
+A internal server error middleware for express.
 
 ## Usage
 
 ```javascript
 var express = require('express');
 var app = express();
-var unprocessableEntityMW = require('unprocessable-entity-mw');
+var internalErrorMW = require('internal-error-mw');
 
 app.get('/', function (req, res) {
   res.send('Hello World!');
 });
 
-app.use(unprocessableEntityMW);
+app.use(internalErrorMW);
 
 var server = app.listen(3000, function () {
   var host = server.address().address;
