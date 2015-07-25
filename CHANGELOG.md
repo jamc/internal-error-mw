@@ -1,5 +1,8 @@
 # Changelog
 
+## Version 0.0.3
+- Added error.stack to the logging
+
 ## Version 0.0.2
 - Fixed README.md
 
