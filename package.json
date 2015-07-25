@@ -1,0 +1,28 @@
+{
+  "name": "internal-error-mw",
+  "version": "0.0.1",
+  "description": "Express middleware that handles internal server error responses",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamc/internal-error-mw.git"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "JAM <jacjam@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamc/internal-error-mw/issues"
+  },
+  "homepage": "https://github.com/jamc/internal-error-mw#readme",
+  "devDependencies": {
+    "chai": "~3.2.0",
+    "fraudster": "^1.0.0",
+    "mocha": "~2.2.5",
+    "sinon": "~1.15.4"
+  },
+  "dependencies": {
+    "logger-initializer": "ssh+git@github.com:jamc/logger-initializer.git#0.0.2"
+  }
+}
